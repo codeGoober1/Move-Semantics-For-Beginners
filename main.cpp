@@ -12,10 +12,12 @@ public:
 		std::cout << "Created\n";
 	}
 
+        /*
 	Data(Data&& other) noexcept : value(other.value) 
 	{
 		std::cout << "Moved\n";
 	}
+        */
 
 	Data& operator=(Data&& other) noexcept
 	{
@@ -48,6 +50,7 @@ private:
 	int value = 0;
 };
 
+/*
 class Entity
 {
 public:
@@ -60,6 +63,7 @@ public:
 private:
 	Data d;
 };
+*/
 
 int main()
 {
