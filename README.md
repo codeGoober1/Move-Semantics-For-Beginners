@@ -1,0 +1,1 @@
+To get started with the program, it asks you for an input for the first two numbers that will be moved. Then once it has the inputs it will ask if you want to move Data1 into Data2 or Data2 into Data1. Enter "Data1" for the first option and "Data2" for the second option.
